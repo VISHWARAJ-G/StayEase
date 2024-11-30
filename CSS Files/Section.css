@@ -1,0 +1,110 @@
+section{
+    background-color: rgb(250, 250, 250);
+    padding:3rem 3rem 2rem 3rem;
+}
+.S-item:hover,.H-item:hover,.A-item:hover{
+    text-decoration: underline;
+}
+.getaways{
+    margin-bottom: 2rem;
+}
+.g-scroll-content{
+    overflow-x: auto;
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    height: 35px;
+    color: rgb(148, 147, 147);
+    font-weight: bold;
+    scrollbar-width: none;
+    border-bottom:1px solid rgb(207,205,205);
+}
+.g-bold{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.g-items{
+    margin-right: 2rem;
+    height: 30px;
+    cursor: pointer;
+}
+.g-first-item{
+    border-bottom: 3px solid black;
+    color: rgb(65, 60, 60);
+}
+.f-gridbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.f-grid-item{
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.f-bold{
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    margin-bottom: .4rem;
+}
+.f-grey{
+    color: rgb(187, 187, 187);
+    font-weight: 400;
+}
+.S-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 1rem;
+}
+.section,.hosting,.airbnb{
+    line-height: 2rem;
+}
+.S-item,.H-item,.A-item{
+    color: rgb(82, 82, 82);
+    font-weight: 400;
+    cursor: pointer;
+}
+.S-bold{
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+}
+.show{
+    display: none;
+}
+@media(max-width:615px){
+    .f-gridbox{
+        grid-template-columns: 1fr 1fr;
+    }    
+    .S-grid{
+        grid-template-columns: 1fr;
+    }
+    .section,.hosting,.airbnb{
+        padding: 0rem 6rem;
+        margin-bottom: 1rem;
+    }
+    .airbnb,.hosting{
+        margin-top: 1rem;
+    }
+    .show{
+        display: block;
+    }
+}
+@media(min-width:616px) and (max-width:735px){
+    .f-gridbox{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .S-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .airbnb{
+        margin-top: 1rem;
+    }
+}
+@media(min-width:736px) and (max-width:920px){
+    .f-gridbox{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media(min-width:921px) and (max-width:1050px){
+    .f-gridbox{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
