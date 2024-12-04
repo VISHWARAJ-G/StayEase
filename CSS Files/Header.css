@@ -119,10 +119,12 @@ header{
         align-items: center;
     }
     .logo{
-        padding-top:10px;
+        padding-top:2px;
+        margin-bottom: -25px;
     }
     .logo-img{
-        height:25px;
+        margin-top: 5px;
+        height:50px;
         width:10rem;
     }
     .your-home{
@@ -130,5 +132,11 @@ header{
     }
     .userbox{
         display: none;
+    }
+    .fa-earth-oceania{
+        margin-top: -4px;
+    }
+    .fa-earth-oceania:hover{
+        border-radius: 100% ;
     }
 }
